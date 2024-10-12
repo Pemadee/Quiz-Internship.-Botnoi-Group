@@ -1,0 +1,5 @@
+fastapi==0.115.2
+requests==2.32.3
+line-bot-sdk==3.13.0
+uvicorn==0.31.1
+
