@@ -4,8 +4,8 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage, TemplateS
 from linebot.exceptions import InvalidSignatureError
 
 
-LINE_CHANNEL_ACCESS_TOKEN = "xFdnUH6bkKuOEsJXQuzTg9XSDzIXPVJdnIPdU5VYQvq+XA79tLDVcjCPakhnx4HJsfqREfINviF6pZX3rQbfxZ657z5IEIRUV+wSy6CKoJkAq1ptNykeQl5d7zvUgTnP9+gsPQ3GxsNkIy7w8i74MgdB04t89/1O/w1cDnyilFU="
-LINE_CHANNEL_SECRET = "520d3f0cf3017a61eef01990cb91a257"
+LINE_CHANNEL_ACCESS_TOKEN = "ํYour Channel access token"
+LINE_CHANNEL_SECRET = "Your Channel secret"
 
 app = FastAPI()
 line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
